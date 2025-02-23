@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08468E871F576E7D0017FF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08468E861F576E7D0017FF32 /* AppDelegate.swift */; };
+		08468E891F576E7D0017FF32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08468E881F576E7D0017FF32 /* ViewController.swift */; };
+		08468E8C1F576E7D0017FF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08468E8A1F576E7D0017FF32 /* Main.storyboard */; };
+		08468E8F1F576E7D0017FF32 /* MilesHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08468E8D1F576E7D0017FF32 /* MilesHub.xcdatamodeld */; };
+		08468E911F576E7D0017FF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08468E901F576E7D0017FF32 /* Assets.xcassets */; };
+		08468E941F576E7D0017FF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08468E921F576E7D0017FF32 /* LaunchScreen.storyboard */; };
+		08468E9F1F576E7D0017FF32 /* MilesHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08468E9E1F576E7D0017FF32 /* MilesHubTests.swift */; };
+		08468EAA1F576E7D0017FF32 /* MilesHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08468EA91F576E7D0017FF32 /* MilesHubUITests.swift */; };
+		08468EBA1F57716B0017FF32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08468EB91F57716B0017FF32 /* WebKit.framework */; };
+		08468EC31F5776060017FF32 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 08468EBD1F5776060017FF32 /* css */; };
+		08468EC41F5776060017FF32 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 08468EBE1F5776060017FF32 /* img */; };
+		08468EC51F5776060017FF32 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 08468EBF1F5776060017FF32 /* index.html */; };
+		08468EC61F5776060017FF32 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 08468EC01F5776060017FF32 /* js */; };
+		08468EC71F5776060017FF32 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 08468EC11F5776060017FF32 /* lib */; };
+		086A9CD21F6360C7007ABECE /* MilesHub_iPAD.png in Resources */ = {isa = PBXBuildFile; fileRef = 086A9CCE1F6360C7007ABECE /* MilesHub_iPAD.png */; };
+		086A9CD31F6360C7007ABECE /* MilesHub_iPADPRO.png in Resources */ = {isa = PBXBuildFile; fileRef = 086A9CCF1F6360C7007ABECE /* MilesHub_iPADPRO.png */; };
+		086A9CD41F6360C7007ABECE /* MilesHub_iPHONE2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 086A9CD01F6360C7007ABECE /* MilesHub_iPHONE2X.png */; };
+		086A9CD51F6360C7007ABECE /* MilesHub_iPHONE3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 086A9CD11F6360C7007ABECE /* MilesHub_iPHONE3X.png */; };
+		086A9CD71F6361A5007ABECE /* MilesHub_iPAD1X.png in Resources */ = {isa = PBXBuildFile; fileRef = 086A9CD61F6361A5007ABECE /* MilesHub_iPAD1X.png */; };
+		089D1DA12B2532F7003562BE /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F99C1E1FD60CC800F7B624 /* GoogleMobileAds.framework */; };
+		08F09A9828385D5300B59CDD /* MilesHub_APPSTORE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08F09A9728385D5200B59CDD /* MilesHub_APPSTORE.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08468E9B1F576E7D0017FF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08468E7B1F576E7D0017FF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08468E821F576E7D0017FF32;
+			remoteInfo = MilesHub;
+		};
+		08468EA61F576E7D0017FF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08468E7B1F576E7D0017FF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08468E821F576E7D0017FF32;
+			remoteInfo = MilesHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08468E831F576E7D0017FF32 /* MilesHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilesHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08468E861F576E7D0017FF32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08468E881F576E7D0017FF32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08468E8B1F576E7D0017FF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08468E8E1F576E7D0017FF32 /* MilesHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MilesHub.xcdatamodel; sourceTree = "<group>"; };
+		08468E901F576E7D0017FF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08468E931F576E7D0017FF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08468E951F576E7D0017FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08468E9A1F576E7D0017FF32 /* MilesHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilesHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08468E9E1F576E7D0017FF32 /* MilesHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesHubTests.swift; sourceTree = "<group>"; };
+		08468EA01F576E7D0017FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08468EA51F576E7D0017FF32 /* MilesHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilesHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08468EA91F576E7D0017FF32 /* MilesHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesHubUITests.swift; sourceTree = "<group>"; };
+		08468EAB1F576E7D0017FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08468EB91F57716B0017FF32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		08468EBD1F5776060017FF32 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../../Downloads/MilesHub/public_html/css; sourceTree = "<group>"; };
+		08468EBE1F5776060017FF32 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../../Downloads/MilesHub/public_html/img; sourceTree = "<group>"; };
+		08468EBF1F5776060017FF32 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../../Downloads/MilesHub/public_html/index.html; sourceTree = "<group>"; };
+		08468EC01F5776060017FF32 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../../../Downloads/MilesHub/public_html/js; sourceTree = "<group>"; };
+		08468EC11F5776060017FF32 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../Downloads/MilesHub/public_html/lib; sourceTree = "<group>"; };
+		086A9CCE1F6360C7007ABECE /* MilesHub_iPAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilesHub_iPAD.png; path = "../../../../Downloads/iOS-3/MilesHub_iPAD.png"; sourceTree = "<group>"; };
+		086A9CCF1F6360C7007ABECE /* MilesHub_iPADPRO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilesHub_iPADPRO.png; path = "../../../../Downloads/iOS-3/MilesHub_iPADPRO.png"; sourceTree = "<group>"; };
+		086A9CD01F6360C7007ABECE /* MilesHub_iPHONE2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilesHub_iPHONE2X.png; path = "../../../../Downloads/iOS-3/MilesHub_iPHONE2X.png"; sourceTree = "<group>"; };
+		086A9CD11F6360C7007ABECE /* MilesHub_iPHONE3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilesHub_iPHONE3X.png; path = "../../../../Downloads/iOS-3/MilesHub_iPHONE3X.png"; sourceTree = "<group>"; };
+		086A9CD61F6361A5007ABECE /* MilesHub_iPAD1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MilesHub_iPAD1X.png; path = ../../../../Downloads/MilesHub_iPAD1X.png; sourceTree = "<group>"; };
+		086A9CD81F639C4D007ABECE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		089D1DA42B253395003562BE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		08F09A9728385D5200B59CDD /* MilesHub_APPSTORE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MilesHub_APPSTORE.jpg; path = ../../../../Downloads/MilesHub_APPSTORE.jpg; sourceTree = "<group>"; };
+		08F99C1E1FD60CC800F7B624 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.26.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08468E801F576E7D0017FF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089D1DA12B2532F7003562BE /* GoogleMobileAds.framework in Frameworks */,
+				08468EBA1F57716B0017FF32 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468E971F576E7D0017FF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468EA21F576E7D0017FF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08468E7A1F576E7D0017FF32 = {
+			isa = PBXGroup;
+			children = (
+				089D1DA42B253395003562BE /* GoogleMobileAds.framework */,
+				086A9CD81F639C4D007ABECE /* PrefixHeader.pch */,
+				08468EB91F57716B0017FF32 /* WebKit.framework */,
+				08468E851F576E7D0017FF32 /* MilesHub */,
+				08468E9D1F576E7D0017FF32 /* MilesHubTests */,
+				08468EA81F576E7D0017FF32 /* MilesHubUITests */,
+				08468E841F576E7D0017FF32 /* Products */,
+				08F99C181FD60A8300F7B624 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08468E841F576E7D0017FF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08468E831F576E7D0017FF32 /* MilesHub.app */,
+				08468E9A1F576E7D0017FF32 /* MilesHubTests.xctest */,
+				08468EA51F576E7D0017FF32 /* MilesHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08468E851F576E7D0017FF32 /* MilesHub */ = {
+			isa = PBXGroup;
+			children = (
+				08F99C1E1FD60CC800F7B624 /* GoogleMobileAds.framework */,
+				08468EBD1F5776060017FF32 /* css */,
+				08468EBE1F5776060017FF32 /* img */,
+				08468EBF1F5776060017FF32 /* index.html */,
+				08468EC01F5776060017FF32 /* js */,
+				08468EC11F5776060017FF32 /* lib */,
+				08468E861F576E7D0017FF32 /* AppDelegate.swift */,
+				08468E881F576E7D0017FF32 /* ViewController.swift */,
+				08468E8A1F576E7D0017FF32 /* Main.storyboard */,
+				08468E901F576E7D0017FF32 /* Assets.xcassets */,
+				08F09A9728385D5200B59CDD /* MilesHub_APPSTORE.jpg */,
+				086A9CCE1F6360C7007ABECE /* MilesHub_iPAD.png */,
+				086A9CCF1F6360C7007ABECE /* MilesHub_iPADPRO.png */,
+				086A9CD01F6360C7007ABECE /* MilesHub_iPHONE2X.png */,
+				086A9CD11F6360C7007ABECE /* MilesHub_iPHONE3X.png */,
+				086A9CD61F6361A5007ABECE /* MilesHub_iPAD1X.png */,
+				08468E921F576E7D0017FF32 /* LaunchScreen.storyboard */,
+				08468E951F576E7D0017FF32 /* Info.plist */,
+				08468E8D1F576E7D0017FF32 /* MilesHub.xcdatamodeld */,
+			);
+			path = MilesHub;
+			sourceTree = "<group>";
+		};
+		08468E9D1F576E7D0017FF32 /* MilesHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				08468E9E1F576E7D0017FF32 /* MilesHubTests.swift */,
+				08468EA01F576E7D0017FF32 /* Info.plist */,
+			);
+			path = MilesHubTests;
+			sourceTree = "<group>";
+		};
+		08468EA81F576E7D0017FF32 /* MilesHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08468EA91F576E7D0017FF32 /* MilesHubUITests.swift */,
+				08468EAB1F576E7D0017FF32 /* Info.plist */,
+			);
+			path = MilesHubUITests;
+			sourceTree = "<group>";
+		};
+		08F99C181FD60A8300F7B624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08468E821F576E7D0017FF32 /* MilesHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08468EAE1F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHub" */;
+			buildPhases = (
+				08468E7F1F576E7D0017FF32 /* Sources */,
+				08468E801F576E7D0017FF32 /* Frameworks */,
+				08468E811F576E7D0017FF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilesHub;
+			productName = MilesHub;
+			productReference = 08468E831F576E7D0017FF32 /* MilesHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08468E991F576E7D0017FF32 /* MilesHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08468EB11F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHubTests" */;
+			buildPhases = (
+				08468E961F576E7D0017FF32 /* Sources */,
+				08468E971F576E7D0017FF32 /* Frameworks */,
+				08468E981F576E7D0017FF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08468E9C1F576E7D0017FF32 /* PBXTargetDependency */,
+			);
+			name = MilesHubTests;
+			productName = MilesHubTests;
+			productReference = 08468E9A1F576E7D0017FF32 /* MilesHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08468EA41F576E7D0017FF32 /* MilesHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08468EB41F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHubUITests" */;
+			buildPhases = (
+				08468EA11F576E7D0017FF32 /* Sources */,
+				08468EA21F576E7D0017FF32 /* Frameworks */,
+				08468EA31F576E7D0017FF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08468EA71F576E7D0017FF32 /* PBXTargetDependency */,
+			);
+			name = MilesHubUITests;
+			productName = MilesHubUITests;
+			productReference = 08468EA51F576E7D0017FF32 /* MilesHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08468E7B1F576E7D0017FF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1330;
+				ORGANIZATIONNAME = "Mark Rustad";
+				TargetAttributes = {
+					08468E821F576E7D0017FF32 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CB7ZU43G6Q;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					08468E991F576E7D0017FF32 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+						TestTargetID = 08468E821F576E7D0017FF32;
+					};
+					08468EA41F576E7D0017FF32 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+						TestTargetID = 08468E821F576E7D0017FF32;
+					};
+				};
+			};
+			buildConfigurationList = 08468E7E1F576E7D0017FF32 /* Build configuration list for PBXProject "MilesHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08468E7A1F576E7D0017FF32;
+			productRefGroup = 08468E841F576E7D0017FF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08468E821F576E7D0017FF32 /* MilesHub */,
+				08468E991F576E7D0017FF32 /* MilesHubTests */,
+				08468EA41F576E7D0017FF32 /* MilesHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08468E811F576E7D0017FF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08468EC41F5776060017FF32 /* img in Resources */,
+				086A9CD21F6360C7007ABECE /* MilesHub_iPAD.png in Resources */,
+				086A9CD51F6360C7007ABECE /* MilesHub_iPHONE3X.png in Resources */,
+				08468EC31F5776060017FF32 /* css in Resources */,
+				08468EC71F5776060017FF32 /* lib in Resources */,
+				086A9CD31F6360C7007ABECE /* MilesHub_iPADPRO.png in Resources */,
+				08468E941F576E7D0017FF32 /* LaunchScreen.storyboard in Resources */,
+				08468EC61F5776060017FF32 /* js in Resources */,
+				08F09A9828385D5300B59CDD /* MilesHub_APPSTORE.jpg in Resources */,
+				08468EC51F5776060017FF32 /* index.html in Resources */,
+				086A9CD41F6360C7007ABECE /* MilesHub_iPHONE2X.png in Resources */,
+				086A9CD71F6361A5007ABECE /* MilesHub_iPAD1X.png in Resources */,
+				08468E911F576E7D0017FF32 /* Assets.xcassets in Resources */,
+				08468E8C1F576E7D0017FF32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468E981F576E7D0017FF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468EA31F576E7D0017FF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08468E7F1F576E7D0017FF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08468E891F576E7D0017FF32 /* ViewController.swift in Sources */,
+				08468E871F576E7D0017FF32 /* AppDelegate.swift in Sources */,
+				08468E8F1F576E7D0017FF32 /* MilesHub.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468E961F576E7D0017FF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08468E9F1F576E7D0017FF32 /* MilesHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08468EA11F576E7D0017FF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08468EAA1F576E7D0017FF32 /* MilesHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08468E9C1F576E7D0017FF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08468E821F576E7D0017FF32 /* MilesHub */;
+			targetProxy = 08468E9B1F576E7D0017FF32 /* PBXContainerItemProxy */;
+		};
+		08468EA71F576E7D0017FF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08468E821F576E7D0017FF32 /* MilesHub */;
+			targetProxy = 08468EA61F576E7D0017FF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08468E8A1F576E7D0017FF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08468E8B1F576E7D0017FF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08468E921F576E7D0017FF32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08468E931F576E7D0017FF32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08468EAC1F576E7D0017FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08468EAD1F576E7D0017FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08468EAF1F576E7D0017FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CB7ZU43G6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MilesHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbmMarkRustad.MilesHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		08468EB01F576E7D0017FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CB7ZU43G6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MilesHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbmMarkRustad.MilesHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		08468EB21F576E7D0017FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MilesHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrustad.MilesHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilesHub.app/MilesHub";
+			};
+			name = Debug;
+		};
+		08468EB31F576E7D0017FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MilesHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrustad.MilesHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilesHub.app/MilesHub";
+			};
+			name = Release;
+		};
+		08468EB51F576E7D0017FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MilesHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrustad.MilesHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MilesHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		08468EB61F576E7D0017FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MilesHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrustad.MilesHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MilesHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08468E7E1F576E7D0017FF32 /* Build configuration list for PBXProject "MilesHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08468EAC1F576E7D0017FF32 /* Debug */,
+				08468EAD1F576E7D0017FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08468EAE1F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08468EAF1F576E7D0017FF32 /* Debug */,
+				08468EB01F576E7D0017FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08468EB11F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08468EB21F576E7D0017FF32 /* Debug */,
+				08468EB31F576E7D0017FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08468EB41F576E7D0017FF32 /* Build configuration list for PBXNativeTarget "MilesHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08468EB51F576E7D0017FF32 /* Debug */,
+				08468EB61F576E7D0017FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08468E8D1F576E7D0017FF32 /* MilesHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08468E8E1F576E7D0017FF32 /* MilesHub.xcdatamodel */,
+			);
+			currentVersion = 08468E8E1F576E7D0017FF32 /* MilesHub.xcdatamodel */;
+			path = MilesHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08468E7B1F576E7D0017FF32 /* Project object */;
+}
